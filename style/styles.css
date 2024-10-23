@@ -1,0 +1,197 @@
+:root
+{
+    --gray6: #F2F2F7;
+    --gray5:#E5E5EA;
+    --gray4:#D1D1D6;
+    --gray3:#C7C7CC;
+    --gray2:#AEAEB2;
+    --gray1: #8E8E93;
+    --cardbg1: #B3B3B3;
+    --cardbg2: #CDCDCD;
+}
+h1
+{
+    font-size: 50px;
+}
+h4 
+{
+    font-size: 20px;
+    color:var(--gray4)
+}
+.mainContainer
+{
+    /* max-height: 1920px; */
+}
+h6
+{
+    color: var(--gray1);
+}
+.mainLeftCol
+{
+    display: flex; 
+    flex-direction: column; 
+
+
+}
+.mainLeftImg
+{
+
+    width: 100%;
+    height: 100%;
+    /* max-height: 1280px; */
+    
+}
+.mainRightCol
+{ 
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack elements vertically */
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: black; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    border-bottom:1px solid;
+}
+
+.logoFormating
+{
+    height: 84px; 
+    width: 74px; 
+    padding: 8px;
+}
+/* Style for hyperlinks*/
+a.menu{
+    color: black; 
+}
+a.menu:visited {
+    color: black; /* Color for visited links */
+
+}
+
+/* Style for hover state */
+a.menu:hover {
+    color: #757575; /* Change color on hover */
+}
+
+/* Style for active links */
+a.menu:active {
+    color: black; /* Color when the link is active (clicked) */
+}
+.middleContent
+{
+   
+    padding: 20px;
+    height: 100%; /* Full height of the body */
+    justify-content: center; 
+    /* align-items: center;  */
+
+}
+/*Styles for carousel*/
+.carouselFormating
+{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height:500px;
+    background-color: var(--gray1);
+    padding-left: 100px;
+    padding-right: 90px;
+   
+}   
+
+
+.icon-group {
+    margin-top: 20px;
+    margin-bottom:10px;
+  }
+  .icon-group a {
+    margin: 0 5px;
+    color: #333;
+    font-size: 1.5rem;
+  }
+
+  .card1
+  {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--cardbg1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
+  }
+  a.card1Links,
+  a.card1Links:visited
+  {
+    color: var(--gray1);
+    text-decoration:underline;
+    
+  }
+
+  .card2
+  {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: var(--cardbg2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  a.card2Links,
+  a.card2Links:visited
+  {
+    color: var(--gray1);
+    text-decoration:underline;
+    
+  }
+/* for gallery styling*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 20px; /* Space between grid items */
+}
+
+.gallery-item {
+    width: 400px;
+    height: 250px;
+    background-color: var(--gray2); /* White background for each item */
+    border: 1px solid #ddd; /* Light border around items */
+    border-radius: 5px; /* Slightly rounded corners */
+    overflow: hidden; /* To prevent overflow of content */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.gallery-item img {
+    width: 100%; /* Make the image responsive */
+    /* height: auto; Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+    object-fit: cover; /* Maintain aspect ratio while filling the space */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/*Styles for form*/
+.connectRow
+{
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--gray1);
+ 
+   
+}   
+
+.connectColumn
+{
+
+    padding:50px;
+    margin: 35px;
+   
+}   
