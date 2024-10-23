@@ -75,6 +75,7 @@ h6
     color: black; /* Default link color */
     text-decoration: none; /* Remove underline */
     border-bottom:1px solid;
+    
 }
 
 .logoFormating
@@ -170,6 +171,7 @@ a.menu:active {
     text-decoration:underline;
     
   }
+
 /* for gallery styling*/
 .gallery {
     display: grid;
@@ -198,7 +200,7 @@ a.menu:active {
     transform: scale(1.05); /* Scale up on hover */
 }
 
-/*Styles for form*/
+/*Styles for forms*/
 .connectRow
 {
     display: flex;
